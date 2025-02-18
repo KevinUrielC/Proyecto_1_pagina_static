@@ -11,6 +11,31 @@ body {
     font-size: 1.5rem; /* Aumenta el tamaño del texto del logo */
 }
 
+.carousel-img {
+    max-width: 60%; /* Ajusta el ancho al 60% del contenedor */
+    height: auto; /* Mantiene la proporción */
+    margin: auto; /* Centra las imágenes */
+}
+
+/* Cambia el color de las barritas del carrusel */
+.carousel-indicators button {
+    background-color: #5f168a !important;  /* Cambia 'red' por el color que quieras */
+}
+
+/* Cambia el color de la barrita activa */
+.carousel-indicators .active {
+    background-color: black !important;  /* Cambia 'black' por otro color */
+}
+
+#carouselej {
+    height: 400px; /* Ajusta la altura que prefieras */
+    overflow: hidden;
+}
+.carousel-inner img {
+    object-fit: cover; /* Asegura que las imágenes cubran todo el espacio sin distorsionarse */
+    height: 100%;
+}
+
 .footer-custom {
     background-color: #5f168a;
     color: white; 
