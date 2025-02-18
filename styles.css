@@ -97,20 +97,23 @@ body {
 }
 
 .team-img {
-    width: 80%; 
-    max-width: 150px; 
-    margin: 0 auto; 
-    padding: 10px; 
-    border: 3px solid #007bff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 80%;  /* Asegura que la imagen ocupe todo el ancho disponible */
+    max-width: 150px;  /* Limita el ancho de la imagen */
+    max-height: 150px;
+    object-fit: cover;
+    margin: 0 auto;  /* Centra la imagen */
+    padding: 10px;
+    border: 3px solid #5f168a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 #nosotros {
     background-color: #f8f9fa; 
 }
 
 .section-header {
-    background-color: #007bff; 
+    background-color: #5f168a; 
     color: white;
     padding: 20px 0;
     border-radius: 0.5rem;
@@ -121,11 +124,14 @@ body {
     padding: 20px;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-size: 1.5rem;
 }
 
 .section-content h2 {
-    border-bottom: 2px solid #007bff; 
-    padding-bottom: 10px;
+    border-bottom: 2px solid #5f168a; 
+    padding-bottom: 20px;
     margin-bottom: 20px;
+    font-size: 2.5rem;
 }
+
 
