@@ -9,13 +9,18 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dulces Martita</title>
+    <title>Dulces Martita/productos</title>
 </head>
 <body>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Dulces Martita</a>
+            <!-- Botón de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barrnavegacion" aria-controls="barrnavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú desplegable -->
             <div class="collapse navbar-collapse" id="barrnavegacion">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -28,20 +33,20 @@
                         <a class="nav-link px-3 active" href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3 active" href="index.html">Contacto</a>
+                        <a class="nav-link px-3 active" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>    
     <!-- Sección de dulces -->
-    <section id="dulces" class="py-5 bg-light">
+    <section id="dulces" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4"> Dulces disponibles</h2>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="card text-cente h-100">
-                        <img src="images/Butter.png" class="card-img-top" alt="ButterFinger">
+                    <div class="card text-center h-100">
+                        <img src="images/Butter2.png" class="card-img-top" alt="ButterFinger">
                         <div class="card-body">
                             <h5 class="card-title">ButterFinger</h5>
                             <p class="card-text">Dulce de matequilla de maní.</p>
@@ -50,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-cente h-100">
+                    <div class="card text-center h-100">
                         <img src="images/Paletatiempom.png" class="card-img-top" alt="Paleta mini reloj">
                         <div class="card-body">
                             <h5 class="card-title">Paleta Mini Reloj (paquete)</h5>
@@ -60,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-cente h-100">
+                    <div class="card text-center h-100">
                         <img src="images/chclorets.png" class="card-img-top" alt="Chicles Clorets">
                         <div class="card-body">
                             <h5 class="card-title">Chicles Clorets (Paquete)</h5>
@@ -70,8 +75,8 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-cente h-100">
-                        <img src="images/picafresa.png" class="card-img-top" alt="Pica Fresa">
+                    <div class="card text-center h-100">
+                        <img src="images/picafresa2.png" class="card-img-top" alt="Pica Fresa">
                         <div class="card-body">
                             <h5 class="card-title">Pica Fresa (bolsa)</h5>
                             <p class="card-text">Dulce de chile.</p>
@@ -80,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-cente h-100">
+                    <div class="card text-center h-100">
                         <img src="images/bubulubu.png" class="card-img-top" alt="Bubulubu">
                         <div class="card-body">
                             <h5 class="card-title">Bubulubu</h5>
@@ -90,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-cente h-100">
+                    <div class="card text-center h-100">
                         <img src="images/dedosIndy2.png" class="card-img-top" alt="DedosIndy">
                         <div class="card-body">
                             <h5 class="card-title">Dedos Indy (paquete)</h5>
@@ -99,6 +104,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <h5 class="text-center py-5">Próximamente más.</h5>
             </div>
         </div>
     </section>
@@ -113,7 +121,7 @@
             </ul>
             <p>Dulces Martita.</p>
             <p>Contacto: <a href="nave.juan@gmail.com" class="text-white">dulcesmartita.com</a></p>
-            <p>Este es solo proyecto escolar (no oficial, no buscamos vender nada de lo mostrado en la página).</p>
+            <p>Este es solo un proyecto escolar (no oficial, no buscamos vender nada de lo mostrado en la página).</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

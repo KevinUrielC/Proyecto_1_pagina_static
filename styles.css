@@ -1,7 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffe7ff !important;
 }
 
+#Descripción p {
+    font-size: 1.5rem; /* Ajusta el tamaño que prefieras */
+}
 
 .navbar {
     background-color: #5f168a !important;
@@ -35,6 +39,35 @@ body {
     object-fit: cover; /* Asegura que las imágenes cubran todo el espacio sin distorsionarse */
     height: 100%;
 }
+
+/* Cambia el color de las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(35%) sepia(90%) saturate(500%) hue-rotate(250deg);
+}
+
+/* Ajustar la posición de las flechas del carrusel */
+.carousel-control-prev {
+    left: 25%; /* Mueve la flecha izquierda más al centro */
+    transform: translateX(-50%);
+    top: 50%; /* Ajusta para mover la flecha hacia abajo */
+}
+
+.carousel-control-next {
+    right: 25%; /* Mueve la flecha derecha más al centro */
+    transform: translateX(50%);
+    top: 50%; /* Ajusta para mover la flecha hacia abajo */
+}
+
+/* Opcional: Cambiar el color del fondo de las flechas */
+.carousel-control-prev, 
+.carousel-control-next {
+    background-color: #5f168a; /* Ajusta la opacidad y color */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
 
 .footer-custom {
     background-color: #5f168a;
@@ -105,11 +138,6 @@ body {
     padding: 10px;
     border: 3px solid #5f168a;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-
-#nosotros {
-    background-color: #f8f9fa; 
 }
 
 .section-header {
