@@ -1,5 +1,5 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffe7ff !important;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .team-img {
-    width: 80%;  /* Asegura que la imagen ocupe todo el ancho disponible */
+    width: 80%;  
     max-width: 150px;  /* Limita el ancho de la imagen */
     max-height: 150px;
     object-fit: cover;
@@ -152,7 +152,7 @@ body {
     padding: 20px;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .section-content h2 {
@@ -162,4 +162,9 @@ body {
     font-size: 2.5rem;
 }
 
+
+.contact-info p {
+    font-size: 18px; /* Ajusta el tamaño según necesites */
+    color: #333; /* Color opcional */
+}
 
