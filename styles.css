@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffe7ff !important;
+    padding-top: 60px; /* Ajusta según la altura de la navbar */
 }
 
 #Descripción p {
@@ -10,7 +11,12 @@ body {
 .navbar {
     background-color: #5f168a !important;
     font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
+
 .navbar-brand {
     font-size: 1.5rem; /* Aumenta el tamaño del texto del logo */
 }
