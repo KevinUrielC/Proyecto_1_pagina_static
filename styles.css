@@ -1,11 +1,39 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ffe7ff !important;
-    padding-top: 60px; /* Ajusta según la altura de la navbar */
+    background-color: #e6d6f3 !important;
+    padding-top: 60px;
 }
 
 #Descripción p {
-    font-size: 1.5rem; /* Ajusta el tamaño que prefieras */
+    font-size: 1.5rem;
+}
+
+.bg-image {
+    background-image: url('images/pexels-outandaboutwithliz-11155163.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Efecto parallax */
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 15, 15, 0.514);
+}
+
+
+a {
+    color: #5f168a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7d5c91;
 }
 
 .navbar {
@@ -94,6 +122,12 @@ body {
     border: 1px solid #dee2e6;
 }
 
+.service-card img {
+    max-width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: 10px auto;
+}
+
 .service-card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -158,14 +192,14 @@ body {
     padding: 20px;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .section-content h2 {
     border-bottom: 2px solid #5f168a; 
     padding-bottom: 20px;
     margin-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .section-header h3 {
