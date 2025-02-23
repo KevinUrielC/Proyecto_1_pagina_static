@@ -218,3 +218,8 @@ a:hover {
     padding: 0 15px;  /* Espaciado en los laterales para evitar que se pegue */
 }
 
+.mapa-pequeno iframe {
+    width: 200%; /* Se ajustará al contenedor */
+    max-width: 570px; /* Establece un ancho máximo */
+    height: 309px; /* Puedes ajustar la altura si es necesario */
+}
