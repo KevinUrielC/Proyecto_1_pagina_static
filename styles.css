@@ -21,24 +21,24 @@ body {
     font-size: 1.5rem; /* Aumenta el tamaño del texto del logo */
 }
 
+.carousel-container {
+    max-width: 1300px; /* Ajusta el tamaño según necesites */
+    margin: 0 auto; /* Centra el carrusel */
+    font-size: 1.5rem; /* Aumenta el tamaño del texto del logo */
+}
+
 .carousel-img {
     max-width: 60%; /* Ajusta el ancho al 60% del contenedor */
     height: auto; /* Mantiene la proporción */
     margin: auto; /* Centra las imágenes */
 }
 
-/* Cambia el color de las barritas del carrusel */
-.carousel-indicators button {
-    background-color: #5f168a !important;  /* Cambia 'red' por el color que quieras */
-}
-
-/* Cambia el color de la barrita activa */
-.carousel-indicators .active {
-    background-color: black !important;  /* Cambia 'black' por otro color */
+.carousel-indicators {
+    display: none !important;
 }
 
 #carouselej {
-    height: 400px; /* Ajusta la altura que prefieras */
+    height: 400px;
     overflow: hidden;
 }
 .carousel-inner img {
@@ -147,7 +147,7 @@ body {
 }
 
 .section-header {
-    background-color: #5f168a; 
+    background-color: #7d5c91; 
     color: white;
     padding: 20px 0;
     border-radius: 0.5rem;
@@ -168,9 +168,19 @@ body {
     font-size: 2.5rem;
 }
 
+.section-header h3 {
+    font-size: 2.5rem;
+}
+
 
 .contact-info p {
-    font-size: 18px; /* Ajusta el tamaño según necesites */
-    color: #333; /* Color opcional */
+    font-size: 18px; 
+    color: #333; 
+}
+
+#contacto .body-wrapper {
+    max-width: 1200px;  /* Ajusta el valor según el tamaño que desees */
+    margin: 0 auto;  /* Centra el contenido */
+    padding: 0 15px;  /* Espaciado en los laterales para evitar que se pegue */
 }
 

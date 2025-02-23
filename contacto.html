@@ -44,11 +44,13 @@
             <div class="body-wrapper">
                 <div class="main-container">
                         <div class="text-center mb-5">
-                            <h1 class="display-4">Contacto</h1>
-                            <p class="lead">¿Tienes preguntas o necesitas realizar un pedido? Contactanos por los siguientes medios.</p>
+                            <div class="text-center mb-5 section-header">
+                                <h3 class="display-4">Contacto</h3>
+                                <p class="lead">¿Tienes preguntas o necesitas realizar un pedido? Contactanos por los siguientes medios.</p>
+                            </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-4 mb-4">
+                        <div class="row justify-content">
+                            <div class="col-md-6 mb-4">
                                 <div class="p-4 bg-light rounded shadow-sm contact-info">
                                     <h2>Datos de contacto:</h2>
                                     <p><strong>Dirección:</strong> Monte Olimpo 111 #23</p>
@@ -67,50 +69,57 @@
             </div>
     </section>
     <!-- Redirección a catalago con carrusel -->
-<!-- Sección de carrusel -->
+    <!-- Sección de carrusel -->
     <section id="Carrusel" class="py-5">
-        <h2 class="text-center mb-4"> Revisa nuestro apartado de productos</h2>
-        <div id="carouselej" class="carousel slide text-center" data-bs-ride="carousel" data-bs-interval="2000">
-            <!-- Indicadores -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselej" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#carouselej" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselej" data-bs-slide-to="2"></button>
+        <div class="carousel-container">
+            <div class="text-center mb-5 section-header">
+                <h3 class="display-4">Revisa nuestro apartado de productos</h3>
             </div>
+            <div id="carouselej" class="carousel slide text-center" data-bs-ride="carousel" data-bs-interval="2000">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselej" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselej" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselej" data-bs-slide-to="2"></button>
+                </div>
 
-            <!-- Imágenes del carrusel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="productos.html">
-                        <img src="images/bbruth.png" class="carousel-img" alt="Dulces 1">
-                    </a>
+                <!-- Imágenes del carrusel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="productos.html">
+                            <img src="images/bbruth.png" class="carousel-img" alt="Dulces 1">
+                            <p>BabyRuth $12.00 MXN</p>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="productos.html">
+                            <img src="images/picafresa2.png" class="carousel-img" alt="Dulces 2">
+                            <p>Pica Fresa (bolsa) $70.00 MXN</p>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="productos.html">
+                            <img src="images/Butter.png" class="carousel-img" alt="Dulces 3">
+                            <p>ButterFingger $11.00 MXN</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <a href="productos.html">
-                        <img src="images/picafresa2.png" class="carousel-img" alt="Dulces 2">
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="productos.html">
-                        <img src="images/Butter.png" class="carousel-img" alt="Dulces 3">
-                    </a>
-                </div>
+
+                <!-- Controles de navegación -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselej" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselej" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
-
-            <!-- Controles de navegación -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselej" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselej" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
     </section>
     <!-- Footer -->
     <footer class="footer-custom text-center py-3">
         <div class="container">
             <p>Dulces Martita.</p>
-            <p>Contacto: <a href="nave.juan@gmail.com" class="text-white">dulcesmartita.com</a></p>
+            <p>Contacto: <a href="contacto.html" class="text-white">nave.juan@gmail.com</a></p>
             <p>Este es solo un proyecto escolar (no oficial, no buscamos vender nada de lo mostrado en la página).</p>
         </div>
     </footer>

@@ -50,13 +50,24 @@
     </section>
     <!-- Sección descripción -->
     <section id="Descripción" class="py-5">
-        <h1 class="text-center mb-4">Explora nuestro sitio</h1>
-        <p class="text-muted text-center">Hola, es un gusto tenerte en nuestro sitio, revisa nuestros productos y servicios.</p>
+        <div class="d-flex justify-content-center">
+            <div class="col-md-6 text-center">
+                <div class="section-content">
+                    <h2>Explora nuestro sitio</h2>
+                    <p> 
+                        Hola! Es un gusto tenerte en nuestro sitio, siéntete libre de revisar nuestros productos y servicios.
+                        Los productos mostrados aquí puedes también encargarlos por medio de nuestra sección de <a href="contacto.html">contacto.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
      <!-- Sección de servicios -->
     <section id="Servicios" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Servicios disponibles</h2>
+            <div class="text-center mb-5 section-header">
+                <h3 class="display-4">Servicios disponibles</h3>
+            </div>
             <div class="row g-4">
                 <div class="col-md-4 mb-4">
                     <div class="card service-card text-center h-100">
@@ -91,48 +102,55 @@
     <!-- Redirección a catalago con carrusel -->
     <!-- Sección de carrusel -->
     <section id="Carrusel" class="py-5">
-        <h2 class="text-center mb-4"> Revisa nuestro apartado de productos</h2>
-        <div id="carouselej" class="carousel slide text-center" data-bs-ride="carousel" data-bs-interval="2000">
-            <!-- Indicadores -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselej" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#carouselej" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselej" data-bs-slide-to="2"></button>
+        <div class="carousel-container">
+            <div class="text-center mb-5 section-header">
+                <h3 class="display-4">Revisa nuestro apartado de productos</h3>
             </div>
+            <div id="carouselej" class="carousel slide text-center" data-bs-ride="carousel" data-bs-interval="2000">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselej" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselej" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselej" data-bs-slide-to="2"></button>
+                </div>
 
-            <!-- Imágenes del carrusel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="productos.html">
-                        <img src="images/bbruth.png" class="carousel-img" alt="Dulces 1">
-                    </a>
+                <!-- Imágenes del carrusel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="productos.html">
+                            <img src="images/bbruth.png" class="carousel-img" alt="Dulces 1">
+                            <p>BabyRuth $12.00 MXN</p>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="productos.html">
+                            <img src="images/picafresa2.png" class="carousel-img" alt="Dulces 2">
+                            <p>Pica Fresa (bolsa) $70.00 MXN</p>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="productos.html">
+                            <img src="images/Butter.png" class="carousel-img" alt="Dulces 3">
+                            <p>ButterFingger $11.00 MXN</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <a href="productos.html">
-                        <img src="images/picafresa2.png" class="carousel-img" alt="Dulces 2">
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="productos.html">
-                        <img src="images/Butter.png" class="carousel-img" alt="Dulces 3">
-                    </a>
-                </div>
+
+                <!-- Controles de navegación -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselej" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselej" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
-
-            <!-- Controles de navegación -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselej" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselej" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
     </section>
           <!-- Footer -->
     <footer class="footer-custom text-center py-3">
         <div class="container">
             <p>Dulces Martita.</p>
-            <p>Contacto: <a href="nave.juan@gmail.com" class="text-white">dulcesmartita.com</a></p>
+            <p>Contacto: <a href="contacto.html" class="text-white">nave.juan@gmail.com</a></p>
             <p>Este es solo un proyecto escolar (no oficial, no buscamos vender nada de lo mostrado en la página).</p>
         </div>
     </footer>
