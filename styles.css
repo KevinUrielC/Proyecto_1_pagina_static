@@ -1,11 +1,7 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: #e6d6f3 !important;
     padding-top: 60px;
-}
-
-#Descripción p {
-    font-size: 1.5rem;
 }
 
 .bg-image {
@@ -137,30 +133,6 @@ a:hover {
     padding: 1.5rem; 
 }
 
-.stat-card {
-    background-color: #ffffff; 
-    padding: 2rem; 
-    border-radius: 0.375rem; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-
-.stat-card:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-}
-
-.stat-card h3 {
-    margin: 0; 
-    font-size: 3rem; 
-}
-
-.stat-card p {
-    margin: 0; 
-    font-size: 1.2rem; 
-    color: #6c757d; 
-}
-
 .card-img-top {
     transition: transform 0.3s ease;
 }
@@ -192,24 +164,23 @@ a:hover {
     padding: 20px;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Texto del cuerpo */
 }
 
 .section-content h2 {
     border-bottom: 2px solid #5f168a; 
     padding-bottom: 20px;
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2rem; /* Titulos */
 }
 
 .section-header h3 {
-    font-size: 2.5rem;
+    font-size: 2rem; /* Los que están de color morado */
 }
 
 
 .contact-info p {
-    font-size: 18px; 
-    color: #333; 
+    font-size: 1.2rem; 
 }
 
 #contacto .body-wrapper {
@@ -221,5 +192,5 @@ a:hover {
 .mapa-pequeno iframe {
     width: 200%; /* Se ajustará al contenedor */
     max-width: 570px; /* Establece un ancho máximo */
-    height: 309px; /* Puedes ajustar la altura si es necesario */
+    height: 342px; /* Puedes ajustar la altura si es necesario */
 }
